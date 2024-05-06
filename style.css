@@ -1,3 +1,126 @@
-p {
-  color: rgb(187, 0, 255);
+body {
+  background: whitesmoke;
+  font-family: "Macondo", cursive;
+  font-family: "Mulish", sans-serif;
+}
+.weather-app {
+  border: solid 10px aliceblue;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  max-width: 950px;
+  min-height: 500px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+a {
+  color: hwb(225 36% 5%);
+}
+header {
+  padding-top: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.form-control {
+  padding: 10px;
+  margin: 0;
+  border: solid 2px
+    linear-gradient(
+      to right,
+      rgb(84, 51, 255),
+      rgb(32, 189, 255),
+      rgb(165, 254, 203)
+    );
+}
+.searchButton {
+  width: 100%;
+  padding: 4px 10px 5px 10px;
+  color: rgb(80, 197, 255);
+  background: whitesmoke;
+  border-radius: 20px;
+  border: solid 1px whitesmoke;
+  transition: ease-in-out;
+  box-shadow: 0px 3px 3px 0px;
+}
+#location {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+main {
+  padding-top: 30px;
+}
+
+img {
+  size: 50%;
+}
+em {
+  padding: 0;
+  font-size: smaller;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#current-temperature {
+  font-size: 100px;
+  padding: 0;
+  font-weight: 530;
+}
+.celcius {
+  position: relative;
+  font-size: xx-large;
+  justify-self: left, top;
+}
+.c-details {
+  font-size: 35px;
+  line-height: 30px;
+  left: 50%;
+}
+.extra-details {
+  font-style: italic;
+  font-size: 15px;
+  margin: 0;
+  color: rgba(39, 33, 66, 0.556);
+}
+
+.forecast-title {
+  padding-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.forecast-temp {
+  font-size: 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+.fiveDayWeather {
+  display: list-item;
+  list-style: none;
+  align-items: center;
+  padding: 30px;
+  padding-top: 0%;
+  color: rgba(39, 33, 66, 0.814);
+}
+.forecast-weather-icon {
+  font-size: xxx-large;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
 }
